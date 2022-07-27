@@ -1,0 +1,36 @@
+<resources>
+    <!-- Strings related to app-->
+    <string name="app_name">EldarWallet</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login-->
+    <string name="login_button">Login</string>
+    <string name="login_tv_name">Nombre</string>
+    <string name="login_tv_last_name">Apellido</string>
+    <string name="login_tv_password">Contraseña</string>
+
+    <!-- Strings related to main screen -->
+    <string name="main_screen_cv_title">Saldo Total</string>
+    <string name="main_screen_cv_money_amount">$50.000</string>
+    <string name="main_screen_empty_state">Agrega tus tarjetas</string>
+    <string name="main_screen_rv_title">Mis tarjetas</string>
+    <string name="main_screen_bt_add_card">Agregar tarjeta</string>
+    <string name="main_screen_bt_qr_pay">Pagar con QR</string>
+
+    <!-- Strings related to qr fragment -->
+    <string name="qr_fragment_title">Paga con QR</string>
+    <string name="qr_fragment_btn_retry">Reintentar</string>
+    <string name="qr_fragment_empty_state">Hubo un error al cargar el QR</string>
+
+    <!-- Strings related to add card fragment -->
+    <string name="add_card_fragment_title">Agrega tu tarjeta</string>
+    <string name="add_card_fragment_card_title">Tarjeta: </string>
+    <string name="add_card_fragment_num_card">Número de tarjeta</string>
+    <string name="add_card_fragment_sec_code">Código de securidad</string>
+    <string name="add_card_fragment_exp_num">Fecha de vencimiento</string>
+    <string name="add_card_fragment_add_button">Agregar</string>
+    <string name="add_card_fragment_brand_visa">Visa</string>
+    <string name="add_card_fragment_brand_american">American Express</string>
+    <string name="add_card_fragment_brand_mastercard">Mastercard</string>
+    <string name="add_card_fragment_error_id_add_card">La tarjeta asociada debe pertenecer al titular de la cuenta</string>
+</resources>

@@ -1,0 +1,2 @@
+com/project/eldarchallenge/ui/MainActivity.class
+com/project/eldarchallenge/ui/LoginActivity.class

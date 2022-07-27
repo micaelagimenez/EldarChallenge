@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainScreenFragment">
+
+    <fragment
+        android:id="@+id/MainScreenFragment"
+        android:name="com.project.eldarchallenge.ui.MainScreenFragment"
+        tools:layout="@layout/fragment_main_screen">
+
+        <action
+            android:id="@+id/action_MainScreenFragment_to_AddCardFragment"
+            app:destination="@id/AddCardFragment" />
+        <action
+            android:id="@+id/action_MainScreenFragment_to_QrFragment"
+            app:destination="@id/QrFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddCardFragment"
+        android:name="com.project.eldarchallenge.ui.AddCardFragment"
+        tools:layout="@layout/fragment_add_card">
+    </fragment>
+
+    <fragment
+        android:id="@+id/QrFragment"
+        android:name="com.project.eldarchallenge.ui.QrFragment"
+        tools:layout="@layout/fragment_qr">
+    </fragment>
+</navigation>
