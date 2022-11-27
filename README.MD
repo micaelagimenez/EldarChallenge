@@ -1,9 +1,9 @@
 # Eldar Challenge
-El desafío es crear ésta aplicación contemplando las siguientes pantallas:
+Screens:
 <br>
 <br>
 • Login<br>
-• Pantalla principal: Saldo, listado de tarjetas asociadas, botones de acceso a las otras pantallas.<br>
-• Agregar una nueva tarjeta.<br>
-• Pago con QR. Generar un QR con el nombre y apellido del usuario utilizando la siguiente api
-https://rapidapi.com/neutrinoapi/api/qr-code/ y presentar el resultado en pantalla.
+• Main Screen: Money amount, associated cards, accessing buttons to other screens.<br>
+• AAdd a new card.<br>
+• Pay with QR. Generate a QR with the name and last name of the user using the following API
+https://rapidapi.com/neutrinoapi/api/qr-code/ and show the result on the screen.
