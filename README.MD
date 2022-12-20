@@ -1,4 +1,4 @@
-# Eldar Challenge
+# QR App
 Screens:
 <br>
 <br>
